@@ -20,3 +20,5 @@ Both variants share some steps/scripts.
 - `create_dataset_DL.ipynb`
 - `tokenize.ipynb`
 - `train_autoencoder.ipynb`
+
+## Case study 2: Method name prediction
