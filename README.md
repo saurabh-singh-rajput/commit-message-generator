@@ -22,3 +22,8 @@ Both variants share some steps/scripts.
 - `train_autoencoder.ipynb`
 
 ## Case study 2: Method name prediction
+The folder `method_name_prediction` contains the *Code2Vec* implementation.
+The original repository can be found on [GitHub](https://github.com/tech-srl/code2vec)
+
+- Create a virtual environment with Python>=3.9
+- Install the required packages from `requirements.txt`
