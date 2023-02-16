@@ -27,3 +27,6 @@ The original repository can be found on [GitHub](https://github.com/tech-srl/cod
 
 - Create a virtual environment with Python>=3.9
 - Install the required packages from `requirements.txt`
+- Download a few Java repositories and place them in `data\repos\training_repos`, `data\repos\testing_repos`, and `data\repos\val_repos` for training, testing, and validation respectively.
+- Execute `preprocess.sh`. The script first creates AST of each Java file, extracts AST path, and removes paths excepts full contexts and partial contexts.
+- Execute `train.sh`
