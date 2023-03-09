@@ -26,7 +26,12 @@ The folder `method_name_prediction` contains the *Code2Vec* implementation.
 The original repository can be found on [GitHub](https://github.com/tech-srl/code2vec)
 
 - Create a virtual environment with Python>=3.9
-- Install the required packages from `requirements.txt`
+- Install the required packages from `method_name_prediction\requirements.txt`
 - Download a few Java repositories and place them in `data\repos\training_repos`, `data\repos\testing_repos`, and `data\repos\val_repos` for training, testing, and validation respectively.
 - Execute `preprocess.sh`. The script first creates AST of each Java file, extracts AST path, and removes paths excepts full contexts and partial contexts.
 - Execute `train.sh`
+
+## ML Essentials
+- Create a virtual environment with Python>=3.9
+- Install the required packages from `ml-essentials\requirements.txt`
+- Run notebooks in the subfolders of `ml-essentials`; all notebooks are independent from each other.
