@@ -35,3 +35,8 @@ The original repository can be found on [GitHub](https://github.com/tech-srl/cod
 - Create a virtual environment with Python>=3.9
 - Install the required packages from `ml-essentials\requirements.txt`
 - Run notebooks in the subfolders of `ml-essentials`; all notebooks are independent from each other.
+
+## Commit message generation
+- Create a virtual environment with Python>=3.9
+- Install the required packages from `commit_message_generation\requirements.txt`
+- Run the notebook `commit_message_generation\commit_message_generator.pynb`
